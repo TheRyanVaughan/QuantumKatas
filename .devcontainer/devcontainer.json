@@ -13,5 +13,6 @@
         "editorconfig.editorconfig",
         "ms-python.python"
     ],
-    "runArgs": ["-e","IQSHARP_HOSTING_ENV=SAMPLES_DEVCONTAINER"]
+    "runArgs": ["-e","IQSHARP_HOSTING_ENV=SAMPLES_DEVCONTAINER"],
+    "postCreateCommand": "pip install pytest matplotlib numpy"
 }
