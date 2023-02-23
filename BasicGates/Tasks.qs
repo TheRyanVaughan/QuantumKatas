@@ -88,6 +88,7 @@ namespace Quantum.Kata.BasicGates {
     // i.e., applying it for a second time does not return the qubit to the original state. 
     operation AmplitudeChange (alpha : Double, q : Qubit) : Unit is Adj+Ctl {
         // ...
+        R1(alpha, q);
     }
 
 
